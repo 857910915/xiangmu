@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>WorkWeb</display-name>
+  <servlet>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditPwdServlet</servlet-name>
+    <servlet-class>servlet.EditPwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>servlet.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteStuInfoServlet</servlet-name>
+    <servlet-class>servlet.DeleteStuInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditStuInfoServlet</servlet-name>
+    <servlet-class>servlet.EditStuInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CookieServlet</servlet-name>
+    <servlet-class>servlet.CookieServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClearCookieServlet</servlet-name>
+    <servlet-class>servlet.ClearCookieServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPwdServlet</servlet-name>
+    <url-pattern>/EditPwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteStuInfoServlet</servlet-name>
+    <url-pattern>/DeleteStuInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditStuInfoServlet</servlet-name>
+    <url-pattern>/EditStuInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieServlet</servlet-name>
+    <url-pattern>/CookieServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClearCookieServlet</servlet-name>
+    <url-pattern>/ClearCookieServlet</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
